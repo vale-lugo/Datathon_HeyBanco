@@ -1,0 +1,1 @@
+from app.api.routes.predictions.routes import register_predictions_routes

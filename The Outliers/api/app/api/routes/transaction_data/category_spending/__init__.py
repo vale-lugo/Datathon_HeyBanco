@@ -1,0 +1,1 @@
+from app.api.routes.transaction_data.category_spending.routes import register_category_spending_routes

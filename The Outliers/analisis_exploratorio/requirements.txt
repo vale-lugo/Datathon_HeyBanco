@@ -1,0 +1,14 @@
+sqlalchemy
+pandas
+python-dotenv
+psycopg2-binary
+numpy
+matplotlib
+seaborn
+scikit-learn
+tensorflow>=2.8.0
+holidays
+fastapi
+uvicorn
+joblib
+optuna

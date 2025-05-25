@@ -1,0 +1,1 @@
+from app.api.routes.transaction_data.recent.routes import register_recent_routes

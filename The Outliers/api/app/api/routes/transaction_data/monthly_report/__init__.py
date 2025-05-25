@@ -1,0 +1,1 @@
+from app.api.routes.transaction_data.monthly_report.routes import register_monthly_report_routes
