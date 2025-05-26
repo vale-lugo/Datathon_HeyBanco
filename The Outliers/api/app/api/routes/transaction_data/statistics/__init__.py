@@ -1,0 +1,1 @@
+from app.api.routes.transaction_data.statistics.routes import register_statistics_routes

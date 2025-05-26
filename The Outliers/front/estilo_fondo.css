@@ -1,0 +1,138 @@
+html, body {
+    background-color: #000000 !important;
+}
+
+
+.main > div {
+    padding-top: 2.2rem;
+    padding-right:2.8rem;
+}
+
+
+.stApp {
+    margin: auto;
+    overflow: auto;
+    color: #FFFFFF; 
+    background-color: #000000 !important;
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF; 
+}
+
+
+.stTextInput > div > label,
+.stSelectbox > div > label,
+.stButton > button {
+    color: #FFFFFF; 
+}
+
+
+.stTextInput > div > input,
+.stSelectbox > div > select {
+    background-color: #333333; 
+    color: #FFFFFF; 
+}
+
+
+.stButton > button {
+    background-color: #333333; 
+    color: #FFFFFF; 
+}
+
+
+[data-testid="block-container"] {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-bottom: -7rem;
+}
+
+[data-testid="stVerticalBlock"] {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+[data-testid="stMetric"] {
+    background-color: #393939;
+    text-align: center;
+    padding: 15px 0;
+    color: white
+}
+
+[data-testid="stMetricLabel"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white
+}
+
+[data-testid="stMetricDeltaIcon-Up"] {
+    position: relative;
+    left: 38%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+[data-testid="stMetricDeltaIcon-Down"] {
+    position: relative;
+    left: 38%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.small-text {
+    font-size: 2rem; 
+    color: white; 
+    text-align: center;
+}
+
+.plotly-graph-div {
+    background-color: #000000; 
+    color: #FFFFFF; 
+}
+
+
+.stSelectbox:first-of-type > div[data-baseweb="select"] > div {
+    background-color: #393939;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #4a4a4a;
+}
+
+.stSelectbox > label {
+    color: #FFFFFF; 
+}
+
+.stSelectbox div[data-baseweb="select"] svg {
+    fill: #FFFFFF; 
+}
+
+.green-box {
+    background-color: #28a745;  
+    border: 2px solid #28a745;  
+    color: #FFFFFF;            
+    padding: 10px;             
+    border-radius: 10px;       
+    font-size: 13px;           
+    text-align: center;        
+    margin-top: 20px;          
+}
+
+.red-box {
+    background-color: #dc3545;  
+    border: 2px solid #dc3545;  
+    color: #FFFFFF;            
+    padding: 10px;                       
+    border-radius: 10px;       
+    font-size: 13px;           
+    text-align: center;        
+    margin-top: 20px;                     
+}

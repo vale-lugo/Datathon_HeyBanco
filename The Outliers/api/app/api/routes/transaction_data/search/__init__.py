@@ -1,0 +1,1 @@
+from app.api.routes.transaction_data.search.routes import register_search_routes
